@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/comment.css">
+</head>
+<style>
+
+</style>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="../../img/logo.png" alt="">
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">LƯU TRÚ</a></li>
+                        <li><a href="">THƯ VIỆN</a></li>
+                        <li><a href="">TIN TỨC</a></li>
+                    </ul>
+                </div>
+                <div class="icon_login">
+                    <a href="">
+                        <img src="../../img/login.png" alt="">
+                    </a>
+                </div>
+            </nav>
+            <div class="banner">
+                <img src="https://sealifegroup.com/storage/files/Banner-blog.jpg" alt="">
+            </div>
+        </header>
+        <div class="main_tourct">
+            <h1>TÊN TOUR</h1>
+            <div class="main">
+                <div class="thongtinct">
+                    <img src="../../img/bzpnjvymuce1p6zzspd8[1].webp" alt="">
+                    <p>dfssssss ssssss ssssss sssssss sssf weerwer werw erw efwedfssssss ssssss ssssss sssssss sssf
+                        weerwer werw erw efwedfssssss ssssss ssssss sssssss sssf weerwer werw erw efwedfssssss ssssss
+                        ssssss sssssss sssf weerwer werw erw efwedfssssss ssssss ssssss sssssss sssf weerwer werw erw
+                        efwe</p>
+                </div>
+
+                <div class="dat_tour">
+                    <div class="box">
+                        <h3>ĐẶT TOUR</h3>
+                        <form action="" method="post"></form>
+                                <div class="item">
+                                <p>Lịch khởi hành</p><input type="date" name="date" id="">
+                            </div>
+                        </form>
+
+                        <div class="item">
+                            <p>Số người</p>
+                            <div class="number_guest">
+                                <button class="minus-btn" onclick="handleMinus()">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="2.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15" />
+                                    </svg>
+                                </button>
+                                <form action="" method="post"><input type="number" name="number" id="number" value="2">
+                                </form>
+                                <button type="submit" class="plus-btn" onclick="handlePlus()">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="2.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M12 4.5v15m7.5-7.5h-15" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <p>Tổng tiền</p><span>10000 VND</span>
+                        </div>
+                        <button>ĐẶT NGAY</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="comment">
+                <h4>BÌNH LUẬN</h4>
+                <form class="comment__form" action="" method="post">
+                    <div class="comment__info">
+                        <input type="text" class="comment__info-input" placeholder="Full name">
+                        <input type="text" class="comment__info-input" placeholder="Email">
+                    </div>
+                    <div class="comment__style">
+                        <textarea name="" id="" cols="60" rows="10" placeholder="Phản hồi..."></textarea>
+                        <button class="comment__btn">Bình luận</button>
+                    </div>
+                </form>
+
+                <div class="comment_content">
+                    <div class="comment__fullname"><strong>Bùi Tiến Cường</strong></div> <span class="comment__date">22/12/2022</span>
+                    <div class="comment__paragraph">werw erw efwedfssssss ssssss ssssss sssssss sssf weerwer werw erw efwedfssssss ssssss
+                        ssssss sssssss sssf weerwer werw erw efwedfssssss</div>
+                </div>
+                <div class="comment_content">
+                    <div class="comment__fullname"><strong>Bùi Tiến Cường</strong></div> <span class="comment__date">22/12/2022</span>
+                    <div class="comment__paragraph">werw erw efwedfssssss ssssss ssssss sssssss sssf weerwer werw erw efwedfssssss
+                        ssssss
+                        ssssss sssssss sssf weerwer werw erw efwedfssssss</div>
+                </div>
+                <div class="comment_content">
+                    <div class="comment__fullname"><strong>Bùi Tiến Cường</strong></div> <span class="comment__date">22/12/2022</span>
+                    <div class="comment__paragraph">werw erw efwedfssssss ssssss ssssss sssssss sssf weerwer werw erw efwedfssssss
+                        ssssss
+                        ssssss sssssss sssf weerwer werw erw efwedfssssss</div>
+                </div>
+                
+            </div>
+        </div>
+        <script>
+            var numberElement = document.getElementById('number');
+            var number = numberElement.value;
+
+
+            function render(number) {
+                numberElement.value = number
+            }
+            //handlePlus
+            function handlePlus() {
+                number++;
+                render(number);
+            }
+            //handleMinus
+            function handleMinus() {
+                if (number > 1) {
+                    number--;
+                };
+                render(number);
+            }
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,1043 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1520px;
+    color: #302f2f;
+    margin: auto;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* header */
+header{
+    margin-bottom: 80px;
+}
+header nav{
+    text-align: center;
+    height: 80px;
+    width: 1520px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #302f2f;
+    line-height: 80px;
+}
+header nav .logo img{
+    height: 50px;
+    margin: 15px 0 15px 20px;
+}
+header nav .menu ul li{
+    display: inline-block;
+}
+header nav .menu ul li a{
+    font-size: 20px;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+header nav .menu ul li a:hover{
+    color: #FB722F;
+}
+header nav .icon_login a svg{
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+header nav .icon_login a svg{
+    color: white;
+}
+
+header .banner img{
+    width: 1520px;
+    height: 450px;
+}
+
+
+/* footer */
+footer{
+    margin-top: 80px;
+}
+footer .banner_footer{
+    width: 1200px;
+    margin: 0 auto 100px auto;
+}
+footer .banner_footer img{
+    width: 1200px;
+}
+footer .footer{
+    background-color: #302f2f;
+}
+footer .footer .lienhe{
+    width: 1200px;
+    margin: auto;
+    color: rgb(201, 199, 199);
+    padding-bottom: 50px;
+}
+footer .footer .lienhe img{
+    height: 40px;
+    margin: 20px 0;
+}
+footer .footer .lienhe p{
+    margin: 20px 0;
+}
+footer .box_lienhe{
+    border-top: 1px solid rgb(201, 199, 199);
+    border-bottom: 1px solid rgb(201, 199, 199);
+    padding: 50px 20px 50px 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+footer .box_diachi .item_diachi{
+    width: 300px;
+}
+footer .box_diachi .item_diachi h2{
+    font-size: 15px;
+    margin:40px 0 20px 0;
+}
+footer .box_diachi .item_diachi p{
+    font-size: 15px;
+}
+
+
+
+/* main_home */
+.main_home{
+    width: 1200px;
+    margin: auto;
+}
+.main_home h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+/* main_home - tour */
+.box_tour .tour{
+    border-bottom: 1px solid #302f2f;
+    padding: 20px 0;
+}
+.box_tour .tour h2{
+    font-size: 25px;
+    text-decoration: underline;
+    color: #FB722F;
+}
+.box_tour .tour .box_item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-bottom: 30px;
+}
+.box_tour .tour .box_item .item_tour{
+    width: 400px;
+    height: 350px;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.box_tour .tour .box_item .item_tour:hover{
+    background-color: #edebeb;
+}
+.box_tour .tour .box_item .item_tour a img{
+    width: 370px;
+    height: 220px;
+    border-radius: 5px;
+}
+.box_tour .tour .box_item .item_tour a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #302f2f;
+    line-height: 30px;
+}
+.box_tour .tour .box_item .item_tour a:hover{
+    color: #FB722F;
+}
+.box_tour .tour .box_item .item_tour a span{
+    color: #FB722F;
+    text-decoration: underline;
+}
+.box_tour .tour .box_item .item_tour a span:hover{
+    color: red;
+    font-size: 25px;
+}
+/* main_home - tiện ích */
+.box_tienich{
+    margin-top: 170px;
+}
+.box_tienich h1{
+    font-size: 35px;
+}
+.box_tienich p{
+    font-size: 15px;
+    margin: 30px 0;
+    margin-right: 900px;
+}
+.box_tienich a{
+    font-size: 15px;
+    color: #302f2f;
+}
+.box_tienich a:hover{
+    color: #FB722F;
+}
+.box_tienich .box_item{
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 170px;
+}
+.box_tienich .box_item .tienich{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.box_tienich .box_item .tienich .item_tienich{
+    padding-top: 300px;
+    padding-left: 20px;
+    width: 275px;
+    height: 360px;
+    background-image: url(https://flamingoresorts.vn/sites/default/files/2019-10/flamingo_home_banner_cac_tien_ich_1_362x330_2.jpg);
+}
+.box_tienich .box_item .tienich .item_tienich a{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-weight: 300;
+}
+.box_tienich .box_item .tienich .item_tienich a:hover{
+    color: #FB722F;
+    text-decoration: underline;
+}
+
+
+/* main_home - ưu dãi */
+.uudai h1{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.uudai .box_uudai{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.uudai .box_uudai .item_uudai{
+    width: 370px;
+}
+.uudai .box_uudai .item_uudai img{
+    width: 370px;
+    height: 180px;
+    margin-bottom: 10px;
+}
+.uudai .box_uudai .item_uudai a{
+    font-size: 15px;
+    text-decoration: none;
+}
+.uudai .box_uudai .item_uudai a:hover{
+    color: #FB722F;
+}
+
+
+
+/* main tour*/
+.main_tour{
+    width: 1200px;
+    margin: auto;
+}
+.main_tour h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.main_tour .tim_tour{
+    width: 400px;
+    height: 60px;
+    line-height: 60px;
+    margin: auto;
+}
+.main_tour .tim_tour form select{
+    width: 230px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.main_tour .tim_tour form button{
+    width: 130px;
+    height: 50px;
+    padding: 0;
+    font-size: 15px;
+    background-color: #FB722F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.main_tour .tim_tour form button:hover{
+    box-shadow: 0 0 5px #6a6a6a;
+    font-weight: 500;
+}
+.main_tour .list_tour{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.main_tour .list_tour .item {
+    width: 400px;
+    height: 450px;
+    margin-bottom: 70px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.main_tour .list_tour .item:hover{
+    background-color: #edebeb;
+}
+.main_tour .list_tour .item img{
+    width: 370px;
+    border-radius: 5px;
+}
+.main_tour .list_tour .item h2{
+    font-size: 25px;
+    margin: 10px 0;
+}
+.main_tour .list_tour .item h2:hover{
+    color: #FB722F;
+}
+.main_tour .list_tour .item button{
+    width: 160px;
+    height: 50px;
+    background-color: #FB722F;
+    border: none;
+    font-size: 15px;
+    color: white;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.main_tour .list_tour .item button:hover{
+    box-shadow: 0px 0px 10px #302f2f;
+}
+.main_tour .list_tour .item p{
+    font-size: 15px;
+    line-height: 20px;
+    color: #FB722F;
+    text-decoration: underline;
+    margin: 15px 0;
+}
+.main_tour .list_tour .item p:hover{
+    color: red;
+    font-size: 25px;
+}
+.main_tour .list_tour .item a{
+    font-size: 15px;
+    color: #302f2f;
+}
+.main_tour .list_tour .item a:hover{
+    color: #FB722F;
+}
+
+/* main chi tiết tour */
+.main_tourct{
+    width: 1200px;
+    margin: auto;
+    font-size: 15px;
+}
+.main_tourct .main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+.main_tourct h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.main_tourct img{
+    width: 800px;
+}
+.main_tourct h3{
+    font-size: 25px;
+    margin: 20px 0;
+}
+.main_tourct .mo_ta p {
+    font-size: 15px;
+    margin: 10px;
+    line-height: 22px;
+}
+.main_tourct button{
+    width: 160px;
+    height: 50px;
+    background-color: #FB722F;
+    border: 1px solid #FB722F;
+    color: white;
+    font-size: 15px;
+    margin: 30px 110px;
+}
+.main_tourct button:hover{
+    box-shadow: 0 0 10px #6a6a6a;
+}
+.main_tourct .main .dat_tour{
+    width: 400px;
+    height: 420px;
+    background-color: #edebeb;
+    padding: 15px;
+}
+.main_tourct .main .dat_tour h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.main_tourct .main .dat_tour .item{
+    display: flex;
+    line-height: 30px;
+    justify-content: space-between;
+    border-bottom: 1px solid #909090;
+    padding: 10px 0;
+}
+.main_tourct .main .dat_tour .info .item input{
+    width: 200px;
+}
+.main_tourct .main .dat_tour .item span{
+    color: red;
+    font-size: 25px;
+}
+.main_tourct .number_guest {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main_tourct .number_guest button {
+    width: 35px;
+    height: 35px;
+    outline: none;
+    background: none;
+    border: 1px solid #909090;
+    cursor: pointer;
+    margin: 0;
+}
+
+.main_tourct .number_guest button:hover {
+    background-color: #edebed;
+}
+
+.main_tourct .number_guest button svg {
+    color: #909090;
+}
+
+.main_tourct .number_guest button svg:hover {
+    color: #6a6a6a;
+}
+
+.main_tourct .number_guest input {
+    width: 40px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid #909090;
+}
+
+/* comment */
+.comment {
+    border-top: 1px solid #6a6a6a;
+    border-bottom: 1px solid #6a6a6a;
+    width: 800px;
+    margin: 20px 0;
+    padding: 20px 0;
+}
+
+.comment h4 {
+    font-size: 20px;
+}
+
+.comment .comment__info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.comment .comment__info .comment__info-input {
+    font-size: 15px;
+    line-height: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #6a6a6a;
+}
+
+.comment .comment__style {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.comment .comment__style textarea {
+    width: 600px;
+    height: 60px;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #6a6a6a;
+    margin: 0;
+}
+
+.comment .comment__style .comment__btn {
+    margin: 0;
+    width: 190px;
+    height: 40px;
+    background-color: #6a6a6a;
+    border: none;
+}
+
+.comment .comment__style .comment__btn:hover {
+    background-color: #FB722F;
+}
+
+.comment .comment_content {
+    padding: 20px 10px 10px 10px;
+    border-top: 1px solid #6a6a6a;
+}
+
+.comment .comment_content .comment__fullname {
+    font-size: 18px;
+    display: inline-block;
+}
+
+.comment .comment_content .comment__date {
+    font-size: 13px;
+    color: #989898;
+    line-height: 18px;
+    margin: 0 10px;
+}
+
+.comment .comment_content .comment__paragraph {
+    border: 1px solid #c5c4c4;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 13px;
+    background-color: #c5c4c4;
+}
+
+/*# sourceMappingURL=comment.css.map */
+
+
+
+/* booking */
+.main_booking{
+    width: 1200px;
+    margin: auto;
+}
+.main_booking h1{
+    text-align: center;
+    font-size: 35px;
+    color: #302f2f;
+}
+.main_booking .booking{
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+}
+.main_booking .booking form{
+    background-color: #edebeb;
+    padding: 20px;
+    border-radius: 5px;
+}
+.main_booking .booking form h3{
+    text-align: center;
+    color: #302f2f;
+    margin-bottom: 20px;
+}
+.main_booking .booking p{
+    float: left;
+    margin: 10px 0 0 0;
+    font-size: 15px;
+}
+.main_booking .booking form{
+    text-align: center;
+}
+.main_booking .booking form input{
+    padding: 10px;
+    width: 750px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+}
+.main_booking .booking form button{
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+    background-color: #FB722F;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+.main_booking .booking form button:hover{
+    box-shadow: 0 0 10px #44515E;
+    color: #edebeb;
+    background-color: #fd6f28;
+}
+.main_booking .booking .info_tour{
+    padding: 20px;
+    font-size: 15px;
+    line-height: 25px;
+    background-color: #edebeb;
+    border-radius: 5px;
+}
+.main_booking .booking .info_tour h3{
+    text-align: center;
+    color: #302f2f;
+    margin-bottom: 15px;
+}
+.main_booking .booking .info_tour li{
+    padding: 15px;
+    border-bottom: 1px solid #909090;
+}
+.main_booking .booking .info_tour li span{
+    font-size: 25px;
+    color: red;
+}
+
+
+
+
+/* thư viện ảnh */
+.main_library {
+    width: 1200px;
+    margin: auto;
+  }
+  .main_library h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .main_library .library {
+    border: 1px solid #edebeb;
+    padding: 20px;
+    background-color: #edebeb;
+    border-radius: 10px;
+    margin: 40px 0;
+  }
+  .main_library .library h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: #FB722F;
+  }
+  .main_library .library .library__detail {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+  .main_library .library .library__detail .library-detail__item {
+    width: 370px;
+    height: 180px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }/*# sourceMappingURL=library.css.map */
+  .main_library .library .library__detail .library-detail__item:hover{
+    scale: 1.2;
+  }
+
+
+
+
+
+
+/* main tin tức */
+.main_news {
+    width: 1200px;
+    margin: auto;
+  }
+  .main_news h1 {
+    font-size: 35px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .main_news .news .news-item {
+    padding: 20px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    background-color: #edebeb;
+    text-decoration: none;
+    margin-bottom: 30px;
+  }
+  .main_news .news .news-item .news-item__img {
+    width: 370px;
+    height: 200px;
+  }
+  .main_news .news .news-item .news-item__img img {
+    width: 370px;
+    height: 200px;
+    border-radius: 5px;
+  }
+  .main_news .news .news-item .title-desc h2 {
+    font-size: 25px;
+    color: #302f2f;
+    margin-bottom: 15px;
+  }
+  .main_news .news .news-item .title-desc h2:hover {
+    color: #FB722F;
+  }
+  .main_news .news .news-item .title-desc span {
+    font-size: 15px;
+    color: #302f2f;
+  }
+  .main_news .news .news-item:hover {
+    box-shadow: 0 0 10px #6a6a6a;
+  }
+  .main_news .news .news-item:hover .news-item__img img {
+    scale: 1.05;
+  }/*# sourceMappingURL=news.css.map */
+
+
+/* main chi tiet tin tuc */
+.main-news_detail {
+    width: 1200px;
+    margin: auto;
+  }
+  .main-news_detail .news_detail {
+    padding: 20px;
+  }
+  .main-news_detail .news_detail .detail__title h1{
+    font-size: 30px;
+  }
+  .main-news_detail .news_detail .detail__img {
+    text-align: center;
+    margin: 25px 0;
+  }
+  .main-news_detail .news_detail .detail__img img {
+    width: 800px;
+  }
+  .main-news_detail .news_detail .detail__content p{
+    font-size: 16px;
+    line-height: 22px;
+    margin: 10px 0;
+    padding: 15px;
+  }/*# sourceMappingURL=news_detail.css.map */
+
+
+
+/* signin */
+
+.main_signin{
+    width: 40%;
+    height: 400px;
+    margin: 0px auto;
+    /* border: 1px solid red; */
+}
+
+.main_signin .logo{
+    text-align: center;
+    
+    
+}
+
+.main_signin .logo img{
+    width: 250px;
+    height: 60px;
+}
+
+.main_signin .table-signin{
+    width: 90%;
+    margin: 0px auto;
+    border: 2px solid #44515E;
+    border-radius: 5px;
+    margin: 30px;
+    padding: 30px;
+    /* background-color: #44515E; */
+}
+
+.main_signin .table-signin .signin{
+    text-align: center;
+    width: 55%;
+    margin: 0px auto;
+    /* border: 1px solid red; */
+}
+
+.main_signin .signin h1{
+    font-size: 28px;
+    line-height: 28px;
+    color: #44515E;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.main_signin .signin .name input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 30px;
+    border: 2px solid grey;
+    color: grey;
+    padding-left: 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    /* background-color: orange; */
+
+}
+
+.main_signin .signin .pass input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 30px;
+    border: 2px solid grey;
+    color: grey;
+    padding-left: 20px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.main_signin .signin .button button{
+    width: 100px;
+    height: 40px;
+    margin-bottom: 30px;
+    background-color: #FB722F;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.main_signin .signin .button button:hover{
+    background-color: rgb(255, 136, 0);
+    cursor: pointer;
+    box-shadow: 0 0 10px #44515E;
+}
+
+.main_signin .signin .a{
+    text-align: left;
+}
+
+.main_signin .signin .a a{
+    font-size: 16px;
+    color: brown;
+    /* font-weight: bold; */
+}
+
+.main_signin .signin .a a:hover{
+    color: red;
+}
+
+
+/* signup */
+
+.main_signup{
+    width: 40%;
+    margin: 0px auto;
+    /* border: 1px solid red; */
+}
+
+.main_signup .logo{
+    text-align: center;
+    
+    
+}
+
+.main_signup .table-signin{
+    width: 90%;
+    margin: 0px auto;
+    border: 2px solid #44515E;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.main_signup .table-signin .signin{
+    text-align: center;
+    width: 55%;
+    margin: 0px auto;
+}
+
+.main_signup .signin h1{
+    font-size: 28px;
+    color: #44515E;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.main_signup .signin .name{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.main_signup .signin input{
+    border-radius: 5px;
+}
+
+.main_signup .signin .name input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 30px;
+    border: 2px solid grey;
+    color: grey;
+    padding-left: 10px;
+    font-size: 14px;
+    /* background-color: orange; */
+
+}
+
+.main_signup .signin .pass input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 30px;
+    border: 2px solid grey;
+    color: grey;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.main_signup .signin .button button{
+    width: 100px;
+    height: 40px;
+    margin-bottom: 30px;
+    background-color: #FB722F;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.main_signup .signin .button button:hover{
+    background-color: rgb(255, 136, 0);
+    cursor: pointer;
+    box-shadow: 0 0 10px #6a6a6a;
+}
+
+.main_signup .signin .a{
+    text-align: left;
+}
+
+.main_signup .signin .a a{
+    font-size: 16px;
+    color: brown;
+    /* font-weight: bold; */
+}
+
+.main_signup .signin .a a:hover{
+    color: red;
+}
+
+/* .main_signup .signin .pass select{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 30px;
+    border: 2px solid grey;
+    color: grey;
+    padding-left: 20px;
+    font-size: 14px;
+    border-radius: 5px;
+} */
+
+
+
+/* thanh toán */
+.main_thanhtoan{
+    width: 65%;
+    height: 600px;
+    margin: 0px auto;
+    border: 2px solid #44515E;
+    margin-top: 100px;
+}
+
+.main_thanhtoan .thanhtoan .h2 h2{
+    font-size: 32px;
+    color: #44515E;
+    /* margin-bottom: 30px; */
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.main_thanhtoan .thanhtoan{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.dc-tt{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+
+.dc .name input{
+    width: 90%;
+    height: 40px;
+    margin-bottom: 30px;
+    border: 2px solid grey;
+    color: grey;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.dc .sdt input{
+    width: 90%;
+    height: 40px;
+    margin-bottom: 30px;
+    border: 2px solid grey;
+    color: grey;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.dc .diachi input{
+    width: 90%;
+    height: 40px;
+    margin-bottom: 30px;
+    border: 2px solid grey;
+    color: grey;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.dc .date input{
+    width: 90%;
+    height: 40px;
+    margin-bottom: 30px;
+    border: 2px solid grey;
+    color: grey;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.dc .btn button{
+    width: 150px;
+    height: 40px;
+    margin-bottom: 30px;
+    background-color: green;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.dc .btn button:hover{
+    cursor: pointer;
+    background-color: rgb(8, 104, 8);
+}
+
+.tt{
+    /* border: 1px solid red; */
+    border: 2px solid grey;
+
+}
+
+.tt .tt-text{
+    width: 85%;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dc-tt .tt .tt-text h2{
+    font-size: 35px;
+    margin-bottom: 50px;
+    color: #44515E;
+    font-size: 26px;
+}
+
+.dc-tt .tt .tt-text p{
+    font-size: 18px;
+    margin-top: -20px;
+    color: #44515E;
+}

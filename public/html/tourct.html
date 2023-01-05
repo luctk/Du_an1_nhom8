@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+        <style>
+            .number_guest {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+            }
+
+            .number_guest button {
+                width: 35px;
+                height: 35px;
+                outline: none;
+                background: none;
+                border: 1px solid #ececec;
+                cursor: pointer;
+            }
+
+            .number_guest button:hover {
+                background-color: #ececec;
+            }
+
+            .number_guest button svg {
+                color: #909090;
+            }
+
+            .number_guest button svg:hover {
+                color: #6a6a6a;
+            }
+
+            .number_guest input {
+                width: 40px;
+                height: 35px;
+                text-align: center;
+                border: 1px solid #ececec;
+            }
+        </style>
+        
+                            <p>Lịch khởi hành</p><input type="date" name="date" id="">
+                            <div class="number_guest">
+                                <button class="minus-btn" onclick="handleMinus()">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="2.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15" />
+                                    </svg>
+                                </button>
+                                <form action="" method="post"><input type="number" name="number" id="number" value="2"></form>
+                                <button class="plus-btn" onclick="handlePlus()">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="2.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M12 4.5v15m7.5-7.5h-15" />
+                                    </svg>
+                                </button>
+                            </div>
+        <script>
+            let numberElement = document.getElementById('number');
+            let number = numberElement.value;
+    
+    
+            function render(number){
+                numberElement.value = number
+            }
+            //handlePlus
+            function handlePlus(){
+                number++;
+                render(number);
+            }
+            //handleMinus
+            function handleMinus(){
+                if(number > 1){
+                    number--;
+                };
+                render(number);
+            }
+        </script>
+
+        
+</body>
+</html>
